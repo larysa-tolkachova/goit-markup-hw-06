@@ -30,6 +30,12 @@ button{
     cursor: pointer;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -54,6 +60,7 @@ button{
     padding-right: 16px;
     margin: 0 auto;
     }
+
 
 /* #region header */
 .header {
@@ -164,7 +171,7 @@ background-color: #404bbf;
 /* #region  hero */
 
 .hero {
-    min-width: 1440px;
+    /*min-width: 1440px;*/
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -833,7 +840,8 @@ font-weight: 500;
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-        
+        padding-left: 16px;
+        padding-right: 16px;
 }
 /*Advantages*/
     .menu-adv {
@@ -850,18 +858,24 @@ font-weight: 500;
     }
 
 /*Our Team*/
+.team > .container {
+    max-width: 560px;
+    
+}
+
 .team {
-    padding: 96px 108px;
     margin-bottom: 96px;
 }
 
 .menu-team {
-    gap: 24px;
-    row-gap: 64px;
+    gap: 64px 24px;
 }
 
 .team-list {
     width: calc((100% - 24px)/2);
+}
+.team-title {
+    margin-top: 96px;
 }
 /*Our Portfolio*/
 
@@ -880,6 +894,8 @@ font-weight: 500;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto; 
+    margin-right: auto;
 }
 /*Advantages*/
 .menu-adv {
@@ -911,10 +927,12 @@ font-weight: 500;
 }
 
 /*Our Team*/
-.team {
-    padding: 120px 156px;
-    margin-bottom: 120px;
+.team > .container {
+    max-width: 1128px;
 }
+.team {
+    margin-bottom: 120px;
+ }
 
 .menu-team {
     gap: 24px;
