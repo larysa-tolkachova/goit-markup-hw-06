@@ -238,14 +238,7 @@ background-color: #404bbf;
 }
 
 .adv-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background: #F4F4FD;
-    border-radius: 4px;
-    border: 1px solid #8e8f99; 
-    margin-bottom: 8px;
+    display: none;
 }
 
 .adv-title {
@@ -273,11 +266,13 @@ background-color: #404bbf;
 
 /* #region  team*/
 
-.team{
+.team {
     background-color: #f4f4fd;
-    padding-top: 120px;
+    /*padding-top: 120px;
     padding-bottom: 120px;
-    margin-bottom: 108px;
+    margin-bottom: 108px;*/
+    padding: 102px 28px 105px 28px;
+    margin-bottom: 87px;
 }
 
 .team-title {
@@ -289,17 +284,18 @@ background-color: #404bbf;
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
-
 }
 
 .menu-team {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    /*gap: 24px;*/
+    gap: 72px;
 }
 
 .team-list {
     background-color: #fff;
-    width: calc((100% - 24px*3)/4);
+    /*width: calc((100% - 24px*3)/4);*/
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
@@ -832,3 +828,106 @@ font-weight: 500;
 
 /*#endregion form*/
 
+
+/*#region 768*/
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        
+}
+/*Advantages*/
+    .menu-adv {
+        gap: 24px;
+        margin-bottom: 96px;
+
+    }
+    .adv-list {
+        width: calc((100% - 24px)/2);
+        
+    }
+    .adv-title {
+        text-align: left;
+    }
+
+/*Our Team*/
+.team {
+    padding: 96px 108px;
+    margin-bottom: 96px;
+}
+
+.menu-team {
+    gap: 24px;
+    row-gap: 64px;
+}
+
+.team-list {
+    width: calc((100% - 24px)/2);
+}
+/*Our Portfolio*/
+
+
+/*footer*/
+}
+
+
+
+
+/*#endregion 768*/
+
+/*#region 1158*/
+@media screen and (min-width: 1158px) {
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*Advantages*/
+.menu-adv {
+    margin-bottom: 120px;
+    justify-content: center;
+}
+.adv-list {
+    width: calc((100% - 24px*3)/4);
+}
+.adv-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.adv-text {
+    font-weight: 400;
+    
+}
+.adv-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    border: 1px solid #8e8f99; 
+    margin-bottom: 8px;
+}
+
+/*Our Team*/
+.team {
+    padding: 120px 156px;
+    margin-bottom: 120px;
+}
+
+.menu-team {
+    gap: 24px;
+}
+.team-list {
+    width: calc((100% - 24px*3)/4);
+}
+/*Our Portfolio*/
+
+
+/*footer*/
+
+
+
+}
+/*#endregion 1158*/
