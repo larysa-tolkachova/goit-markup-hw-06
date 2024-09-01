@@ -69,6 +69,7 @@ img {
 
 .header-cont {
     display: flex;
+    justify-content: space-between;
 }
     .nav {
     display: flex;
@@ -84,18 +85,26 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .logo-h {
     color: #2e2f42;
 }
 
+.burger-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
 .menu {
-    display: flex;
+    display: none;
+    /*display: flex;
     gap: 40px;
     margin-right: 332px;
-    margin-left: 76px;
-    
+    margin-left: 76px;*/
 }
 
 .menu-item {
@@ -143,8 +152,9 @@ background-color: #404bbf;
     font-style: normal
 }
 .adr {
-    display: flex;
-    gap: 40px;
+    display: none;
+    /*display: flex;
+    gap: 40px;*/
 }
 
 .adr-comm {
@@ -887,6 +897,40 @@ font-weight: 500;
         padding-left: 16px;
         padding-right: 16px;
 }
+
+/*header*/
+.logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.burger-btn {
+    display: none;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.adr {
+    display: block;
+    /*display: flex;
+    gap: 40px;*/
+}
+
+.adr-comm {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.appeal {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 /*Hero*/
 .hero {
     padding-top: 112px;
@@ -1008,6 +1052,22 @@ font-weight: 500;
     margin-left: auto; 
     margin-right: auto;
 }
+/*header*/
+.menu {
+    margin-right: 332px;
+    margin-left: 76px;
+}
+.adr {
+   display: flex;
+    gap: 40px;
+}
+
+    
+
+
+
+
+
 /*Hero*/
 .hero {
 background-image: linear-gradient(
