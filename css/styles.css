@@ -850,6 +850,7 @@ font-weight: 500;
     letter-spacing: 0.04em;
     color: #8e8f99;
     cursor: pointer;
+    display: flex;
 }
     
     .checkbox-a {
@@ -1213,7 +1214,7 @@ font-weight: 500;
     margin-bottom: 24px;
 }*/
 
-.custom-checkbox {
+/*.custom-checkbox {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
@@ -1230,8 +1231,7 @@ font-weight: 500;
     background-color: #404bbf;
     fill: #F4F4FD; 
     border: none;
-    }
-
+    }*/
 .custom-label-user-checkbox {
     font-weight: 400;
     font-size: 12px;
