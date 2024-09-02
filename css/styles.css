@@ -1158,6 +1158,7 @@ background-image: linear-gradient(
 .footer-form-cont {
     margin-left: 80px;
 }
+}
 /*#endregion 1158*/
 
 
@@ -1196,7 +1197,7 @@ background-image: linear-gradient(
 .mob-nav {
     margin-bottom: auto;
 }
-*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .mob-menu {
         display: none;
     }
