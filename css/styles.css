@@ -102,10 +102,7 @@ img {
 }
 .menu {
     display: none;
-    /*display: flex;
-    gap: 40px;
-    margin-right: 332px;
-    margin-left: 76px;*/
+    
 }
 
 .menu-item {
@@ -150,12 +147,11 @@ background-color: #404bbf;
     }
 
 .appeal{
-    font-style: normal
+    font-style: normal;
 }
 .adr {
     display: none;
-    /*display: flex;
-    gap: 40px;*/
+    
 }
 
 .adr-comm {
@@ -311,7 +307,7 @@ background-color: #404bbf;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    gap: 72px;
+    padding-bottom: 72px;
 }
 
 .menu-team {
@@ -399,7 +395,7 @@ background-color: #404bbf;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 
 .menu-set {
@@ -879,7 +875,7 @@ font-weight: 500;
 .menu {
     display: flex;
     gap: 40px;
-    justify-content: center;
+    
 }
 
 
@@ -887,6 +883,7 @@ font-weight: 500;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding-top: 24px;
 }
 
 .adr-comm {
@@ -897,10 +894,10 @@ font-weight: 500;
     padding-bottom: 0;
 }
 
-.appeal {
+/*.appeal {
     padding-top: 24px;
     padding-bottom: 24px;
-}
+}*/
 /*Hero*/
 .hero {
     padding-top: 112px;
@@ -955,9 +952,7 @@ font-weight: 500;
 .team-list {
     width: calc((100% - 24px)/2);
 }
-.team-title {
-    margin-top: 96px;
-}
+
 /*Our Portfolio*/
 
 .menu-set {
@@ -1256,13 +1251,21 @@ font-weight: 500;
     margin-right: auto;
 }
 /*header*/
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .menu {
-    margin-right: 332px;
-    margin-left: 76px;
+    padding-right: 320px;
+    padding-left: 76px;
 }
 .adr {
    display: flex;
+   flex-direction: row;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .adr-comm {
     font-size: 16px;
