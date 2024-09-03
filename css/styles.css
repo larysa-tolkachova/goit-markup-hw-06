@@ -36,6 +36,7 @@ img {
     height: auto;
 }
 
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -340,7 +341,7 @@ background-color: #404bbf;
     /*width: calc((100% - 24px*3)/4);*/
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
+    
 }
 
 .team-dan {
@@ -528,7 +529,9 @@ font-weight: 500;
     
 }
 
-
+.footer-lt .logo {
+    text-align: center;
+}
 .logo-f {
     color: #f4f4fd;
 }
@@ -546,8 +549,7 @@ font-weight: 500;
     
 }
 .footer-icon {
-    margin-left: 40px;
-    margin-right: 40px;
+    justify-content: center;
 }
 .sn-footer {
     gap: 16px;
@@ -1010,14 +1012,15 @@ font-weight: 500;
     margin-top: 0;
 }
 /*footer*/
-.footer {
-    padding-left: 92px;
-}
+
 .footer-cont {
     align-items: baseline;
+    margin-left: 92px;
+    gap: 72px 24px;
 }
-.footer-lt {
-    margin-right: 24px;
+
+.footer-lt .logo {
+    text-align: left;
 }
 .footer-text {
     width: 264px;
@@ -1303,11 +1306,6 @@ font-weight: 500;
     gap: 40px;
 }
 
-    
-
-
-
-
 
 /*Hero*/
 .hero {
@@ -1326,7 +1324,6 @@ background-image: linear-gradient(
          url(../images/people-office-2x.jpg);
         }
 }
-
 
 
 /*Advantages*/
@@ -1387,8 +1384,16 @@ background-image: linear-gradient(
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 0;
+    
 }
+
+.footer-cont {
+    align-items: baseline;
+    justify-content: left;
+    gap: 0;
+    flex-wrap: nowrap;
+}
+
 .footer-lt {
     margin-right: 120px
 }
